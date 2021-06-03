@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Which Sex & the City Character are you?</title>
+</head>
+<body>
+  <div>
+    <form id="formOne">
+      <div class="container">
+        <h2>How many drinks would you have on a night out?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drinks" value="1" checked>
+            1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drinks" value="2-3">
+            2-3
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drinks" value="4">
+            4 at most
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drinks" value="2-bottles-of-wine">
+            2 bottles of wine
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn">View your character</button>
+    </form>
+  </div>
+  <div id="match">
+    <h1>Here is your match:</h1>
+    <p>
+      <span class="person1"></span>
+    </p>
+  </div>
+</body>
+</html>
+
+<!--
+Characters:
+  1) Carrie Bradshaw: Impulsive/Adventurous
+  2) Charlotte York: Sensitive
+  3) Samantha Jones: Confident
+  4) Miranda Hobbes: Independent
+
+  2 questions for each category
+
+  Adventurous ==> Carrie:
+    1) How many drinks do you enjoy yourself for a date night?
+        a) 1 drink          ==== 2 pts
+        b) 2-3 drinks       ==== 4 pts
+        c) 4 drinks at most ==== 6 pts
+        d) 2 wine bottles   ==== 8 pts
+    2) Which of these would you rather do?
+        a) Skydiving        ==== 8 pts
+        b) Carriage Ride    ==== 4 pts
+        c) Strip Club       ==== 6 pts
+        d) Networking event ==== 2 pts
+
+  Sensitive  ==> Charlotte:
+    3) What would you do to wind down after a long day of work?
+        a) Bath with lit candles    ===  8 pts
+        b) Go to a club opening     ===  2 pts
+        c) Watch your favorite show ===  4 pts
+        d) Go on a date             ===  6 pts
+    4) How many kids do you want?
+        a) 0                        === 2 pts
+        b) 1                        === 4 pts
+        c) 2-3                      === 6 pts
+        d) 4 <                      === 8 pts
+
+    Confident ==> Samantha:
+    5) What job profession would you choose?
+        a) Lawyer                   === 4 pts
+        b) Publicist                === 8 pts
+        c) Writer                   === 6 pts
+        d) Gallery Owner            === 2 pts
+    6) Do you take someone home on a first date?
+        a) Yes                            === 6 pts
+        b) No                             === 2 pts
+        c) Maybe                          === 4 pts
+        d) Yes, but not staying the night === 8 pts
+
+    Independent ===> Miranda
+    7) How likely are you to bring up problems to your friends?
+        a) Very likely              === 8 pts
+        b) Likely                   === 6 pts
+        c) Not likely               === 4 pts
+        d) Not at all               === 2 pts
+    8) Are you financially secure?
+        a) Yes that's enough for the next 3 years === 8 pts
+        b) Yes but budgetting is necessary        === 6 pts
+        c) Yes but living paycheck to paychec     === 4 pts
+        d) No.                                    === 2 pts
+
+There are many sites out there that offer to determine which movie/tv/book character you are most like based on your answers to a short quiz. Choose a movie, tv show or book and build a website that asks users a series of questions and then tells them which movie character they are based on their answers.
+
+
+-->
